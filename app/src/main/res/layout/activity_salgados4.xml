@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="199dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Bolinho" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Ingredientes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="359dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="        3 xícaras (de chá) de farinha de trigo
+        2 e 1/2 xícaras (de chá) de água morna
+        3 colheres (de sopa) de óleo
+        1 envelope de tempero em pó e sal a gosto
+        1/2 kg de salsicha cortada em pedaços
+        100 ml de leite Farinha de rosca para empanar
+        Óleo para fritar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Modo de Preparo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="369dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="        1-Coloque a farinha, o óleo e o tempero em uma panela e misture
+        2-Vá colocando a água aos poucos, misture bem até dissolver e depois leve ao fogo, até a massa desgrudar da panela
+        3-Deixe a massa esfriar, depois unte as mãos com margarina, modele a massa e envolva a salsinha como um bolinho, passe no leite e depois na farinha de rosca
+        4-Frite em óleo quente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+</android.support.constraint.ConstraintLayout>
